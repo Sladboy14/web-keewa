@@ -388,7 +388,7 @@ section {
   padding: 100px 8%;
 }
 
-.containerlist {
+.containershoes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px,auto));
   align-items: center;
@@ -409,6 +409,8 @@ section {
   Letter-spacing:1px;
   margin-bottom: 8px;
 }
+
+
 
 
 
