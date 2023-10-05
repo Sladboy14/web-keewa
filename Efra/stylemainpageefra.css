@@ -169,26 +169,25 @@ transition: 0.3s;
   border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
+  
 }
 
 .stock-button .ready {
-  background-color: rgb(211, 211, 211);
-  color: white;
+  background-color: white;
+  color: #303C62;
 }
 
 .stock-button .preorder {
-  background-color: rgb(211, 211, 211);
-  color: white;
+  background-color: white;
+  color:#303C62;
 }
 
-.stock-button .soldout {
-  background-color: rgb(211, 211, 211);
-  color: white;
-}
-.btn:hover {
+.stock-button .sold-out {
   background-color: white;
-  transform: scale(1) !important;
+  color: #303C62;
 }
+
+
 
 /* Hamburger Menu */
 .hamburger-menu {
@@ -390,9 +389,9 @@ section {
   padding: 100px 8%;
 }
 
-.containerlist {
+.containershoes {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+  grid-template-columns: repeat(auto-fit, minmax(290px,auto));
   align-items: center;
   gap: 2rem;
   text-align: center;
@@ -406,9 +405,26 @@ section {
 }
 
 .box h4{
+  color: #303C62;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   font-size: 15px;
-  Letter-spacing:1px;
+  letter-spacing:1px;
   margin-bottom: 8px;
 }
+
+.shoestock-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px,auto));
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+
+
+
 
 
