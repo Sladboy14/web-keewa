@@ -1,127 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keewa Shoes</title>
-    <style>
-        /* Gaya untuk tata letak */
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        .shoe {
-            width: 25%; /* Setiap sepatu akan memiliki lebar 25% dari kontainer */
-            padding: 10px;
-            box-sizing: border-box;
-            text-align: center;
-        }
+  <title>keewa-main-website</title>
 
-        /* Gaya untuk gambar sepatu (ini hanya contoh) */
-        .shoe img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <!-- Link to an external CSS stylesheet -->
+    <link rel="stylesheet" href="stylemainpagelyra.css" />
+
 </head>
 <body>
+    <main>
 
-    <header class="main">
-        <h1>Lyra</h1>
-              <div>
-                    <button><a class="btn btn-primary" href="ReadyLyra.html" role="button">Ready Stock</a></button>
-                    <button><a class="btn btn-primary" href="PreOrder_Lyra.html" role="button">Pre Order</a></button>
-                    <button><a class="btn btn-primary" href="SoldOut_Lyra.html" role="button">Sold Out</a></button>
+        <!-- Header Only -->
+
+        <header>
+          <nav class="container">
+            <div class="logo">
+              <a href="../index.html">
+              <img src="logokeewaupdatepng.png" alt="logo">
+              </a>
+            </div>
+            <nav class="links">
+              <!-- Navigation links (Tautan navigasi) -->
+              <ul>
+                <li><a href="#">Fashion Show</a></li>
+                <li><a href="#">Knowledge</a></li>
+              </ul>
+            </nav>
+          </nav>
+        </header>
+
+
+
+        <div class="shoestock-container">
+
+          <div class="EthiaAllColors">
+            <span style="color: #303C62; font-size: 76px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Lyra</span>
+            <span style="color: #303C62; font-size: 76px; font-family: Poppins; font-weight: 250; word-wrap: break-word">|</span>
+            <span style="color: #303C62; font-size: 76px; font-family: Poppins; font-weight: 400; word-wrap: break-word"> </span>
+            <span style="color: #303C62; font-size: 12px; font-family: Poppins; font-weight: 400; word-wrap: break-word">All Colors</span>
+          </div>
+
+              <div class="stock-button">
+                    <button class="ready" onclick="location.href='Ready.Lyra.html'">Ready Stock</button>
+                    <button class="preorder" onclick="location.href='PreOrder_Lyra.html'">Pre Order</button>
+                    <button class="sold-out" onclick="location.href='SoldOut_Lyra.html'">SoldOut</button>
               </div>
-    </header>
+              
+        </div>
 
-    <div class="container"> 
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 1">
-            <h3>Classic Blue</h3>
+
+    <section class="shop" id="shop">
+
+        <div class="containershoes">
+          
+            <div class="box">
+              <img src="img/Lyra - Ash Grey - Samping - Web.jpg-SOLD.jpg">
+              <h4>Ashgrey</h4>
+            </div>
+            <div class="box">
+                <img src="img/Lyra - Black Ashgrey - Samping - Web.jpg- PO.jpg">
+                <h4>Black Ashgrey</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Cadmium Green - Samping - Web.JPG- R.JPG">
+                <h4>Cadmium Green</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Camel - Samping -Web.JPG - R.jpg">
+                <h4>Camel</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Camel Lemon Curry - Samping - Web.JPG - PO.jpg">
+                <h4>Camel Lemon Curry</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Choco Lab - Samping - Web.JPG - SOLD.jpg">
+                <h4>Choco Lab</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Classic Blue Nubuck - Samping - Web.JPG - PO.jpg">
+                <h4>Classic Blue Nubuck</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Classic Blue Sol Putih - Samping - Web.JPG - PO.jpg">
+                <h4>Classic Blue White Sole</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Color Custom - Samping - Web.JPG-PO.JPG">
+                <h4>Lyra Color Custom</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Drill Green - Samping - Web.JPG- SOLD.jpg">
+                <h4>Drill Green</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Dusty Rose - Samping - Web.JPG-R.JPG">
+                <h4>Dusty Rose</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Fairy Blue Classic Blue.JPG- PO.jpg">
+                <h4>Fairy Blue Classic Blue</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Faity Blue - Samping - web.JPG - R.jpg">
+                <h4>Fairy Blue</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Golden Yellow Nubuck - Samping - Web.JPG - SOLD.jpg">
+                <h4>Golden Yellow Nubuck</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Havana - Samping - Web.JPG - R.jpg">
+                <h4>Havana</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Khaki FG - Samping - Web.JPG - R_.jpg">
+                <h4>Khaki FG</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Khaki Nubuck - Samping - Web.JPG - SOLD.jpg">
+                <h4>Khaki Nubuck</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Lavender - Samping - Web.JPG- SOLD.jpg">
+                <h4>Lavender</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Olive - White Sole - Samping - Web.jpg">
+                <h4>Olive</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Raisin - Samping - Web.JPG - RAISIN.jpg">
+                <h4>Raisin</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Red - Samping - Web.JPG - R.jpg">
+                <h4>Red</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Red Nubuck - Samping - Web.JPG - PO_.jpg">
+                <h4>Red Nubuck</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Red Wine - Samping - Web.JPG - SOLD.jpg">
+                <h4>Red Wine</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Rose Gold - Samping - Web.JPG - PO.jpg">
+                <h4>Rose Gold</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Rumba Red - Samping - Web.JPG - R_.jpg">
+                <h4>Rumba Red</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Rumba Red Black - Samping - Web.JPG - PO.jpg">
+                <h4>Rumba Red Black</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Rumba Red Fairy Blue - Samping - Web.JPG - PO.jpg">
+                <h4>Fairy Blue</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Silver Blue - Samping - Web.JPG - PO.jpg">
+                <h4>Silver Blue</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Silver Metalic - Samping - Web.JPG - R.jpg">
+                <h4>Silver Metallic</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Tosca Glitter - Samping - web.JPG - PO.jpg">
+                <h4>Tosca Glitter</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - Very Pery - Samping - Web.JPG - R.jpg">
+                <h4>Very Pery</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - White - Samping - Web.JPG - R.jpg">
+                <h4>White</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - White Gold - Samping - Web.JPG - PO.jpg">
+                <h4>White Gold</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra - White No Ribbon - Samping - Web.JPG - PO.jpg">
+                <h4>White No Ribbon</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra Aqua Haze - Samping - Web.JPG - PO.jpg">
+                <h4>Aqua Haze</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra Ash Grey - Samping - Web.JPG - R.jpg">
+                <h4>Ashgrey</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra Ashgrey Khaki - Samping - Web.JPG - PO.jpg">
+                <h4>Ashgrey Khaki</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra Black - Samping - Web.JPG - PO.jpg">
+                <h4>Black</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra Black Khaki - Samping - Web.JPG - PO.jpg">
+                <h4>Black Khaki</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra Black Patent - Samping - Web.JPG - PO.jpg">
+                <h4>Black Patent</h4>
+              </div>
+              <div class="box">
+                <img src="img/Lyra Black-Silver Blue Ribbon - Samping - Web.JPG - R.jpg">
+                <h4>Black Silver Blue Ribbon</h4>
+              </div>
+        
+            </div>
         </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 2">
-            <h3>Classic Blue Nubuck</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 3">
-            <h3>Fairy Blue</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 4">
-            <h3>Drill Green</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 5">
-            <h3>Lyra Color Custom</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 6">
-            <h3>Lyra Havana</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 7">
-            <h3>Red Nubuck</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 8">
-            <h3>Lyra Red</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 1">
-            <h3>Lyra Khaki</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 2">
-            <h3>Lyra Lavender</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 1">
-            <h3>Lyra Ashgrey</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 2">
-            <h3>Red Wine</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 1">
-            <h3>Bella - Raisin</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 2">
-            <h3>Lyra Olive</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 1">
-            <h3>Cadmium Green</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 2">
-            <h3>Lyra Ashgrey</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 1">
-            <h3>Camel Lemon</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 2">
-            <h3>Black Ashgrey</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 1">
-            <h3>Choco Lab</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 2">
-            <h3>Lyra White</h3>
-        </div>
-        <div class="shoe">
-            <img src="Lyra1.jpg" alt="Sepatu 1">
-            <h3>Lyra Camel</h3>
-        </div>
-    </div>
+    </section>
+
 </body>
 </html>
- 
+
+

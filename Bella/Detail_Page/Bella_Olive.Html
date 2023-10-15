@@ -1,99 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail Produk Sepatu</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>keewa-main-website</title>
+
+    <!-- Link to an external CSS stylesheet -->
+    <link rel="stylesheet" href="Bella_Olive.css" />
+
 </head>
-<body>
-    <Style>
-        body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+  <!-- Header Only -->
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
+  <header>
+    <nav class="container">
+      <div class="logo">
+        <a href="../../index.html">
+        <img src="logokeewaupdatepng.png" alt="logo">
+        </a>
+      </div>
+      <nav class="links">
+        <!-- Navigation links (Tautan navigasi) -->
+        <ul>
+          <li><a href="#">Fashion Show</a></li>
+          <li><a href="#">Knowledge</a></li>
+        </ul>
+      </nav>
+    </nav>
+  </header>
 
-.product-container {
-    display: flex;
-    margin: 20px;
-    
-   
-}
+  <div class = "card-wrapper">
+    <div class="card">
 
-.product-images {
-    flex: 1;
-    margin-right: 20px;
-}
+      <div class="product-imgs">
+        <div class="img-display">
 
-.main-image {
-    width: 70%;
-    max-height: 310px;
-    margin-left: 100px; /* Beri margin kiri untuk memberikan jarak antara elemen lain */
-    
-}
-
-.thumbnail-images {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.thumbnail {
-    width: 100px;
-    height: auto;
-    cursor: pointer;
-    margin: 10px;
-    
-}
-
-.product-description {
-    flex: 2;
-}
-  /* Gaya untuk tata letak */
-  .container {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .shoe {
-            width: 25%; /* Setiap sepatu akan memiliki lebar 25% dari kontainer */
-            padding: 10px;
-            box-sizing: border-box;
-            text-align: center;
-        }
-
-    </Style>
-
-    
-
-    <header>
-        <h1>Keewa Shoes</h1>
-    </header>
-    <div class="product-container">
-        <div class="product-images">
-            <img src="Bella1.jpg" alt="Sepatu 1" class="main-image">
+          <!--Input Gambar dari Sub Folder IMG untuk Tampilan Display Sepatu-->
+          <div class="img-showcase">
+            <img src="img/Bella Olive/Olive1.JPG" alt="shoe image">
+            <img src="img/Bella Olive/Olive2.JPG" alt="shoe image">
+            <img src="img/Bella Olive/Olive3.JPG" alt="shoe image">
+            <img src="img/Bella Olive/Olive4.JPG" alt="shoe image">
+            <img src="img/Bella Olive/Olive5.JPG" alt="shoe image">
+            
+          </div>
         </div>
-        <div class="product-description">
-            <p><H1>Bella<h3>| Olive </h3> </H1></p>
-            <p>Sepatu bot kulit yang nyaman pada bagian betis</p>
-            <p>Model : Boot</p>
-            <p>Material : Kulit Sapi</p>
-            <p>Size Available : 38-43</p>
-                <div class="container">
-                <img src="Bella1.jpg" alt="Thumbnail 1" class="thumbnail">
-                <img src="Bella1.jpg" alt="Thumbnail 2" class="thumbnail">
-                <img src="Bella1.jpg" alt="Thumbnail 3" class="thumbnail">
-                <img src="Bella1.jpg" alt="Thumbnail 2" class="thumbnail">
-                </div>
+
         </div>
+      </div>
+
+      <!--Deskripsi Produk-->
+      <div class = "product-content">
+        <h2 class="product-title">Bella | Olive</h2>
+        <a href="#" class = "product-link">Order Now</a>
+
+
+        <div class="img-select">
+          <div class="img-item">
+            <a href = "img/Bella Olive/Olive1.JPG" data-id ="1">
+              <img src="img/Bella Olive/Olive1.JPG" alt="shoe image">
+            </a>
+          </div>
+  
+          <div class="img-item">
+            <a href = "img/Bella Olive/Olive2.JPG" data-id ="2">
+              <img src="img/Bella Olive/Olive2.JPG" alt="shoe image">
+            </a>
+          </div>
+  
+          <div class="img-item">
+            <a href = "img/Bella Olive/Olive3.JPG" data-id ="3">
+              <img src="img/Bella Olive/Olive3.JPG" alt="shoe image">
+            </a>
+          </div>
+  
+          <div class="img-item">
+            <a href = "img/Bella Olive/Olive4.JPG" data-id ="4">
+              <img src="img/Bella Olive/Olive4.JPG" alt="shoe image">
+            </a>
+          </div>
+  
+          <div class="img-item">
+            <a href = "img/Bella Olive/Olive5.JPG" data-id ="5">
+              <img src="img/Bella Olive/Olive5.JPG" alt="shoe image">
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      
+
     </div>
-</body>
+  </div>
+  <script src="Bella_Olive.js"></script>
 </html>
- 
+
+

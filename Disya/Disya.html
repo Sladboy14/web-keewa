@@ -1,90 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keewa Shoes</title>
-    <style>
-        /* Gaya untuk tata letak */
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        .shoe {
-            width: 25%; /* Setiap sepatu akan memiliki lebar 25% dari kontainer */
-            padding: 10px;
-            box-sizing: border-box;
-            text-align: center;
-        }
+  <title>keewa-main-website</title>
 
-        /* Gaya untuk gambar sepatu (ini hanya contoh) */
-        .shoe img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <!-- Link to an external CSS stylesheet -->
+    <link rel="stylesheet" href="stylemainpagedisya.css" />
+
 </head>
 <body>
+    <main>
 
-    <header class="main">
-        <h1>Disya</h1>
-              <div>
-                    <button><a class="btn btn-primary" href="ReadyDisya.html" role="button">Ready Stock</a></button>
-                    <button><a class="btn btn-primary" href="PreOrder_Disya.html" role="button">Pre Order</a></button>
-                    <button><a class="btn btn-primary" href="SoldOut_Disya.html" role="button">Sold Out</a></button>
+        <!-- Header Only -->
+
+        <header>
+          <nav class="container">
+            <div class="logo">
+              <a href="../index.html">
+              <img src="logokeewaupdatepng.png" alt="logo">
+              </a>
+            </div>
+            <nav class="links">
+              <!-- Navigation links (Tautan navigasi) -->
+              <ul>
+                <li><a href="#">Fashion Show</a></li>
+                <li><a href="#">Knowledge</a></li>
+              </ul>
+            </nav>
+          </nav>
+        </header>
+
+
+
+        <div class="shoestock-container">
+
+          <div class="EthiaAllColors">
+            <span style="color: #303C62; font-size: 76px; font-family: Poppins; font-weight: 400; word-wrap: break-word">Disya </span>
+            <span style="color: #303C62; font-size: 76px; font-family: Poppins; font-weight: 250; word-wrap: break-word">|</span>
+            <span style="color: #303C62; font-size: 76px; font-family: Poppins; font-weight: 400; word-wrap: break-word"> </span>
+            <span style="color: #303C62; font-size: 12px; font-family: Poppins; font-weight: 400; word-wrap: break-word">All Colors</span>
+          </div>
+
+              <div class="stock-button">
+                    <button class="ready" onclick="location.href='ReadyBowa.html'">Ready Stock</button>
+                    <button class="preorder" onclick="location.href='PreOrder_Bowa.html'">Pre Order</button>
+                    <button class="sold-out" onclick="location.href='SoldOut_Bowa.html'">SoldOut</button>
               </div>
-    </header>
+              
+        </div>
 
-    <div class="container">
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 1">
-            <h3>Disya Light Grey</h3>
+
+    <section class="shop" id="shop">
+
+        <div class="containershoes">
+          
+            <div class="box">
+              <img src="img/DISYABLACK.JPG">
+              <h4>Black</h4>
+            </div>
+            <div class="box">
+                <img src="img/DISYACADMIUMGEEN.JPG">
+                <h4>Cadmium Green</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYACAMEL.JPG">
+                <h4>Camel</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYACLASSICBLUE.JPG">
+                <h4>Classic Blue</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYAFAIRYBLUE.JPG">
+                <h4>Fairy Blue</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYALEMONCURRY.JPG">
+                <h4>Lemon Curry</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYALIGHTGREY.JPG">
+                <h4>Light Grey</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYANAVY.JPG">
+                <h4>Navy</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYARED.JPG">
+                <h4>Red</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYARUMBARED.JPG">
+                <h4>Rumba Red</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYATOSCAGLITTER.JPG">
+                <h4>Tosca Glitter</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYAWHITE.JPG">
+                <h4>White</h4>
+              </div>
+              <div class="box">
+                <img src="img/DISYABLACK.JPG">
+                <h4>Ashgrey</h4>
+              </div>
+            
+            </div>
         </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 2">
-            <h3>Disya Navy</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 3">
-            <h3>Disya Red</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 4">
-            <h3>Disya Rumba Red</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 5">
-            <h3>Disya Tosca Glitter</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 6">
-            <h3>Disya white</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 7">
-            <h3>Disya Camel</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 8">
-            <h3>Disya Clasic Blue</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 1">
-            <h3>Disya Black</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 2">
-            <h3>Disya Fairy Blue</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 1">
-            <h3>Disya Cadmium Green</h3>
-        </div>
-        <div class="shoe">
-            <img src="Disya1.jpg" alt="Sepatu 2">
-            <h3>Disya Lemon Curry</h3>
-        </div>
-    </div>
+    </section>
+
 </body>
 </html>
+
+
